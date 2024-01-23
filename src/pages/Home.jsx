@@ -93,7 +93,7 @@ const Home = () => {
       <section className="min-h-screen bg-[#e2f2ff] px-3 py-8 lg:px-20 lg:py-12 relative">
         <form
           onSubmit={handleSubmit}
-          className="mx-auto w-[240px] 3xl:w-[900px] h-16 shadow-md rounded-full bg-white grid lg:grid-cols-[auto_150px] items-center pl-7 lg:pl-10 pr-2.5 "
+          className="mx-auto w-[240px] lg:w-[900px] h-16 shadow-md rounded-full bg-white grid lg:grid-cols-[auto_150px] items-center pl-7 lg:pl-10 pr-2.5 "
         >
           <label className="text-[#666566] -mb-3 text-lg" htmlFor="searcher">
             País
