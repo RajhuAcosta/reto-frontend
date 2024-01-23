@@ -6,6 +6,7 @@ export default {
       screens: {
         xs: "375px",
         "1.5xl": "1440px",
+        "3xl": "1920px",
       },
     },
   },
