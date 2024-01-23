@@ -24,9 +24,9 @@ const Home = () => {
     event.preventDefault();
     setCountryName(event.target.countryName.value);
   };
-  // useEffect(() => {
-  //   set
-  // }, [infoModal])
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [countries])
 
   useEffect(() => {
     if (arrayFilter?.length > 1) {
